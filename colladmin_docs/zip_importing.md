@@ -17,11 +17,11 @@ _Note: You must already have both your collection container and your .zip archiv
 
 1.	In `Manage collection policy`, select the appropriate Content Model(s) for the collection items; for this import method, applicable Content Models are:  
 
-	*	Islandora PDF Content Model
-	*	Islandora Audio Content Model
-	*	Islandora Large Image Content Model
-	*	Islandora Video Content Model
-	*	_Be sure to click `Update collection policy`._
+*	Islandora PDF Content Model
+*	Islandora Audio Content Model
+*	Islandora Large Image Content Model
+*	Islandora Video Content Model
+*	_Be sure to click `Update collection policy`._
 
 1.	At the top of the Collection window, click `+ Batch Import Objects.`
 

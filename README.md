@@ -1,4 +1,4 @@
-# INDEX
+# Contents
 
 ## LDL Administrator Docs
 
@@ -50,3 +50,15 @@ In this section, the following shorthands are used:
 ### Preparing Content
 
 * [Structuring Ingest Packages](colladmin_docs/structuring_ingest_packages.md)
+
+### Managing Content  
+
+* [Creating a Collection Alias or Namespace](colladmin_docs/create_alias.md)
+* [Creating a New Collection](colladmin_docs/create_collection.md)
+* [Zip Importing Items](colladmin_docs/zip_importing.md)
+
+- - - - -
+
+## Public Docs  
+
+* [Search Essentials](public_docs/search_essentials.md)

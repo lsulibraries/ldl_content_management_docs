@@ -158,7 +158,7 @@ Note the difference between a phrased search and an AND Boolean search.
 
 Use an asterisk __*__ as a wildcard to stand in for one or more letters or numbers.  
 
-* This strategy is useful for variant spellings or word endings, uncertain spelling
+* This strategy is useful for variant spellings or word endings, uncertain spelling, or flexible queries. 
 
 #### Empty search:
 
