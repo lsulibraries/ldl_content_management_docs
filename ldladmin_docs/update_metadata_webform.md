@@ -14,7 +14,7 @@ The GitHub repository for the metadata forms is located at https://github.com/ls
 
 Custom forms provided by LSU Libraries for the LDL are:
 
-- *LDL Default MODS Form* - Includes all fields covered in the LDL Guidelines for Descriptive Metadata except (where noted) and should be associated with all content models in use by the LDL except Collection CM.
+- *LDL Default MODS Form* - Includes all fields covered in the LDL Guidelines for Descriptive Metadata and should be associated with all content models in use by the LDL except Collection CM.
 - *LDL Collection MODS Form* - Built specifically for collection-level metadata and should only be associated with the Collection CM.
 - *LDL Core MODS Form* - Can be used to build minimal records; especially useful for compound child objects. Should be associated with all content models in use by the LDL except Collection CM. Contains only the following fields:
     - Title
@@ -38,9 +38,9 @@ Custom forms provided by LSU Libraries for the LDL are:
 
 1. For new forms, use the `Create Form` or `Import Form` options at the top. To update an existing form, locate the form in the list and click the `Edit` option.
 
-1. **For help with the form building/editing process itself,** please refer to the Islandora Wiki's documentation, [Creating and Working With XML Forms](https://github.com/Islandora/islandora/wiki/Creating-and-Working-With-XML-Forms). As the wiki says, "XML Form builder is quite possibly the most intimidating part of Islandora" -- and as such, those mechanics are not covered here!
+1. **For help with the form building/editing process itself,** please refer to Islandora's Duraspace documentation, [Islandora and Ingest Forms](https://wiki.duraspace.org/pages/viewpage.action?pageId=34638958), and/or GitHub documentation, [Creating and Working With XML Forms](https://github.com/Islandora/islandora/wiki/Creating-and-Working-With-XML-Forms). LSU and the LDL have not changed anything about how the forms are created and updated. As the wiki says, "XML Form builder is quite possibly the most intimidating part of Islandora" -- and as such, those mechanics are not covered here!
 
-1. When your edits are done, for a new form, you'll need to associate the form with one or more Content Models. Note that you cannot add multiple Content Models at once, but will need to repeat the
+1. When your edits are done, for a new form, you'll need to associate the form with one or more Content Models.
 
 - Return to the Form Builder page
 - Locate the line for the form you've worked on
@@ -51,6 +51,8 @@ Custom forms provided by LSU Libraries for the LDL are:
     - For Title Field, use the first instance of ['titleInfo']['title']`
     - For XSL Transform, use `[...]/mods_to_dc.xsl`
     - For Self XSL Transform, use `[...]/blankNodes.xsl`
+- Click `Add Association` to save.
+- Note that you cannot add multiple Content Models at once; you will need to repeat the above for each Content Model that should use the form.
 
 1. When finished, test the form thoroughly. It is recommended that you test at least two ways:
 
