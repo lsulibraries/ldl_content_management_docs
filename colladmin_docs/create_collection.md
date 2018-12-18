@@ -28,7 +28,10 @@ __Roles:__ Collection Administrator
 
 1. Enter the Collection Title.
 
-1. In the LDL Collection Owner field set:
+1. In the Collection Identifier field, enter the Collection's namespace (institution code, hyphen, collection code).
+	* Example: loyno-p16313coll24
+
+1. In the Contributing Repository field set:
 	* Select the owning/contributing institution from the Repository drop-down list.
 	* If the collection includes materials from more than one repository, click `Add`, then choose the subsequent numbered tab in the Name field block to add another repository.
 	* _If the institution or sub-institution is not represented in the list, please contact LSU staff to have it added._
@@ -36,13 +39,12 @@ __Roles:__ Collection Administrator
 1. In the Type of Resource field, use the drop-down to select the type of resource that comprises the collection. If the collection includes multiple types of materials, select "mixed material."
 	* _MODS will not validate without this field._
 
-1. In the Collection ID field, enter the Collection's namespace (institution code, hyphen, collection code).
-	* Example: loyno-p16313coll24
-
 1. For new collections, please ignore the "Migrated From" field set; this is for use only in collections that were migrated from CONTENTdm, for link redirection.
 
+1. In the Collection Summary, enter a short summary of the collection contents, to appear in search results.
+
 1. In the Collection Description, enter a detailed summary of the collection contents and/or context.
-	* This is similar to former landing page's "About this collection."
+	* This is similar to former landing page's "About this collection" and will appear as the Description on the collection home page.
 	* You may use basic HTML tags to enhance the description, to add links, formatting, etc.
 
 1. Optionally, enter miscellaneous notes in the Note field.

@@ -38,7 +38,7 @@ In this section, the following shorthands are used:
 ### Metadata Support
 
 * [Processing XSLT with Saxon](ldladmin_docs/process_xslt_with_saxon.md)
-* Updating Metadata Web Forms
+* [Updating Metadata Web Forms](ldladmin_docs/update_metadata_webform.md)
 * Updating MODS Display XSLT
 * [Creating a PID List](ldladmin_docs/create_pid_list.md)
 * [Querying the Resource Index](ldladmin_docs/query_resource_index.md)
