@@ -25,7 +25,10 @@ _Note: For use on Test, remember to use /upload in place of /tmp_
 
 1. Create a PID file  
 `drush islandora_datastream_crud_fetch_pids --user={username} --namespace={namespace} --pid_file=/tmp/{namespace}-pids.txt`  
-	- (optional: `--content_model={contentmodel}`)
+	- (optional: `--content_model={contentmodel}`)  
+
+- Note: This relies on the SOLR index to retrive PIDS. If the collection has been indexed only partially or not at all, then your PID list will be incomplete.
+- As an alternative to the fetch_pids command, you may use the resource index to query for PIDS and create a PID list that way. See [Querying the Resource Index](query_resource_index.md); you'll have to edit the resulting list to have exactly one pid (without the 'info:fedora/' prefix) per line, save as a .txt file, then scp the file to Production for use in the following steps. 
 
 ### Fetch and Zip Datastreams
 

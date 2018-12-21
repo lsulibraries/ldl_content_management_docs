@@ -100,4 +100,5 @@ php mik --config {filename}.ini
 
 ## Ref  
 
-[Move to Islandora Kit](https://github.com/MarcusBarnes/mik)
+- [Move to Islandora Kit](https://github.com/MarcusBarnes/mik)  
+- Support files from some past MIK processes have been saved to the LSU Libraries U drive at ContentDMData/mik_csv-to-mods (use discerningly; some MODS field mappings are outdated per current guidelines)
